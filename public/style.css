@@ -1,0 +1,171 @@
+h2{
+color: maroon;
+display: flex;
+justify-content: center;
+}
+
+body{
+    background-color: #ebeef1;
+}
+
+
+
+
+/* .user{
+    font-style: italic;
+   text-align: center
+}
+.container{
+    display: flex;
+    padding: 50px;
+   justify-content: space-between;
+}
+
+
+.card{
+    
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 16px;
+    padding: 50px 25px;
+    background: #ebeef1;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16), -10px -10px 10px -1px rgba(255, 255, 255, 0.8);
+
+
+}
+.btn{
+    
+    background-color: #ebeef1;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+    color: #000;
+    box-shadow: inset 5px 5px 10px -1px rgba(10, 99, 169, 0.16), inset -7px -7px 10px -1px rgba(255, 255, 255, 0.8);
+}
+.btn:hover{
+    background-color: blue;
+}
+.btn1{
+    margin: 20px;
+    background-color: #ebeef1;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+    color: #000;
+    box-shadow: inset 5px 5px 10px -1px rgba(10, 99, 169, 0.16), inset -7px -7px 10px -1px rgba(255, 255, 255, 0.8);
+}
+
+.btn1:hover{
+    background-color: red
+}
+.btn3{
+    margin: 20px;
+    background-color: #ebeef1;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+    color: #000;
+    box-shadow: inset 5px 5px 10px -1px rgba(10, 99, 169, 0.16), inset -7px -7px 10px -1px rgba(255, 255, 255, 0.8);
+}
+.btn3:hover{
+    background-color: green;
+} */
+
+     
+
+.user {
+    font-style: italic;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 16px;
+    padding: 30px 15px;
+    background: #ebeef1;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px -1px rgba(10, 99, 169, 0.16), -5px -5px 10px -1px rgba(255, 255, 255, 0.8);
+    margin: 20px;
+}
+
+.btn, .btn1, .btn3 {
+    background-color: #ebeef1;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #000;
+    box-shadow: inset 3px 3px 6px -1px rgba(10, 99, 169, 0.16), inset -4px -4px 6px -1px rgba(255, 255, 255, 0.8);
+}
+.btn1{
+    margin: 20px;
+}
+.btn3{
+    position: relative;
+    left: 45%;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.btn1:hover {
+    background-color: red;
+}
+
+.btn3:hover {
+    background-color: green;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 50px;
+    }
+
+    .card {
+        width: 45%;
+        margin: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .card {
+        width: 30%;
+        margin: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .btn, .btn1, .btn3 {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .btn, .btn1, .btn3 {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
